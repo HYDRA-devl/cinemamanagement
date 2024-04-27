@@ -1,0 +1,34 @@
+/* Styles for the header */
+.header {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around content */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+     /* Center align text */
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin */
+}
+
+.header ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+}
+
+.header ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+.header ul li:last-child {
+    margin-right: 0; /* Remove margin from last list item */
+}
+
+.header ul li a {
+    color: #fff; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make link text bold */
+}
